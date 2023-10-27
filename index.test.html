@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.css">
+
+<!-- include JS for Jasmine -->  
+<script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.js"></script>
+<script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine-html.js"></script>
+<script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot0.js"></script>
+<script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot1.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Loan Calculator 💰💲💵</h1>
+    </header>
+    <section class="calc-container">
+      <form id="calc-form">
+        <label>
+          Loan Amount
+          <input type="text" id="loan-amount">
+        </label>
+        <label>
+          Term in Years
+          <input type="text" id="loan-years">
+        </label>
+        <label>
+          Yearly Rate
+          <input type="text" id="loan-rate">
+        </label>
+        <button type="submit" id="calc-submit">Calculate</button>
+      </form>
+      <div>
+        <h3>Monthly Payment</h3><h3>
+        <span id="monthly-payment"></span>
+      </h3></div>
+    </section>
+  
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app.test.js"></script>
+
+    
+
+  
+
+<div class="jasmine_html-reporter"><div class="jasmine-banner"><a class="jasmine-title" href="http://jasmine.github.io/" target="_blank"></a><span class="jasmine-version">4.1.0</span><div class="jasmine-run-options"><span class="jasmine-trigger">Options</span><div class="jasmine-payload"><div class="jasmine-stop-on-failure"><input class="jasmine-fail-fast" id="jasmine-fail-fast" type="checkbox"><label class="jasmine-label" for="jasmine-fail-fast">stop execution on spec failure</label></div><div class="jasmine-throw-failures"><input class="jasmine-throw" id="jasmine-throw-failures" type="checkbox"><label class="jasmine-label" for="jasmine-throw-failures">stop spec on expectation failure</label></div><div class="jasmine-random-order"><input class="jasmine-random" id="jasmine-random-order" type="checkbox"><label class="jasmine-label" for="jasmine-random-order">run tests in random order</label></div><div class="jasmine-hide-disabled"><input class="jasmine-disabled" id="jasmine-hide-disabled" type="checkbox"><label class="jasmine-label" for="jasmine-hide-disabled">hide disabled tests</label></div></div></div></div><ul class="jasmine-symbol-summary"></ul><div class="jasmine-alert"><span class="jasmine-duration">finished in 0.018s</span><span class="jasmine-overall-result jasmine-bar  jasmine-incomplete ">Incomplete: No specs found, <span class="jasmine-seed-bar">, randomized with seed <a title="randomized with seed 60618" href="/C:/Users/ryryc/AppData/Local/Temp/43bda39c-cef4-449d-8205-e149978d4fdc_jasmine-testing-exercises-starter.zip.fdc/jasmine-testing-exercises-starter/calculator/calculator-test.html?seed=60618">60618</a></span></span></div><div class="jasmine-results"><div class="jasmine-failures"></div><div class="jasmine-summary"></div></div></div></body></html>
